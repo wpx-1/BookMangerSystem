@@ -1,0 +1,14 @@
+.book-del{
+  float: right;
+  /*padding-left: 40px;*/
+}
+.td-width1 {
+  width:30px
+}
+.td-width2 {
+  width:170px
+}
+.my-dropdown-btn{
+  width: 30px;
+  border-radius: 0px;
+}

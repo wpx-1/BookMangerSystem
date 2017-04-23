@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图书管理系统控制台</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/BookManagerSystem/css/index.css?ver=date()">
+
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <!-- navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">图书管理系统控制台</a>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+    <div class="row my-body-padding">
+      <div class="container-fluid">
+        <div class="col-md-2 col-sm-2">
+        <!-- collapsible list group -->
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    图书管理
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="list-group">
+                  <li class="list-group-item my-sidebar-indent"><a id="book-return" href="javascript:void(0);">借书</a></li>
+                  <li class="list-group-item my-sidebar-indent"><a id="book-return" href="javascript:void(0);">图书归还</a></li>
+                  <li class="list-group-item my-sidebar-indent">
+                    <a id="book-select" href="javascript:void(0);">图书查询与更新</a>
+                  </li>
+                  <li class="list-group-item my-sidebar-indent">Porta ac consectetur ac</li>
+                  <li class="list-group-item my-sidebar-indent">Vestibulum at eros</li>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="list-group">
+                  <li class="list-group-item my-sidebar-indent">Cras justo odio</li>
+                  <li class="list-group-item my-sidebar-indent">Dapibus ac facilisis in</li>
+                  <li class="list-group-item my-sidebar-indent">Morbi leo risus</li>
+                  <li class="list-group-item my-sidebar-indent">Porta ac consectetur ac</li>
+                  <li class="list-group-item my-sidebar-indent">Vestibulum at eros</li>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="list-group">
+                  <li class="list-group-item my-sidebar-indent">Cras justo odio</li>
+                  <li class="list-group-item my-sidebar-indent">Dapibus ac facilisis in</li>
+                  <li class="list-group-item my-sidebar-indent">Morbi leo risus</li>
+                  <li class="list-group-item my-sidebar-indent">Porta ac consectetur ac</li>
+                  <li class="list-group-item my-sidebar-indent">Vestibulum at eros</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="myContainer" class="col-md-10 col-sm-10">
+          <h1 class="welcome">欢迎使用图书管理系统</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="node_modules/vue/dist/vue.js" charset="utf-8"></script>
+    <script src="js/main.js?ver=date()" charset="utf-8"></script>
+    <script src="js/index.js?ver=date()" charset="utf-8"></script>
+  </body>
+</html>
